@@ -1,0 +1,619 @@
+.bbcom_desktop_smartphones_overviewStripPage_a .page-nav { position: relative; min-height: 50px; z-index: 999; border-bottom: solid 1px #DDD;  background:#b8292f !important;} /* when elicit is turned on, page-body in IE gets a z-index of 10, so this must be > 10 for proper stacking */
+.bbcom_desktop_smartphones_overviewStripPage_a .page-body  { overflow: hidden; }
+.bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section { position: relative; }
+
+.bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section.even { background: #fff;  }
+
+.page-section .section-heading { max-width:990px; padding:1.3em 0; margin:0 auto; }
+/* page section section-head */
+h2.section-heading { color: #333; font-size: 25px; line-height: 20px; font-weight:bold; text-transform: uppercase; letter-spacing: 0.em; margin:0 auto; }
+   
+ .page-section.even  .section-head h2.section-heading { color: #333; }
+        .bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section.light .section-head h2.section-heading { color: #333; }
+.bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section .section-head .anchor-top { position: absolute; right: 12px; top: 4px; padding-right: 24px; text-transform: uppercase; color: #fff; font-size: 12px; background-image: url("/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_pinnedNavigation_a/clientlibs/img/top.png"); background-repeat: no-repeat; background-position: right -100px; }
+    .bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section.section-accessories .section-head .anchor-top { color: #666; background-position: right top; }
+    .rtl.bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section .section-head .anchor-top { right: auto; left: 12px; }
+    .bbcom_desktop_smartphones_overviewStripPage_a .page-body > .page-section .section-head .anchor-top:hover { color: #007BC8; }
+
+/* video modal */
+.bbcom_desktop_smartphones_overviewStripPage_a .modal-dialog .large-dark, 
+.bbcom_desktop_smartphones_overviewStripPage_a .modal-dialog .medium-dark { overflow: hidden; }
+
+/* specs section */
+.bbcom_desktop_smartphones_overviewStripPage_a .section-specifications { overflow: hidden; }
+.bbcom_desktop_smartphones_preloadedApps_a { pspecCategory_bdding: 0 40px 30px; position: relative; }
+.bbcom_desktop_smartphones_preloadedApps_a p, .bbcom_desktop_smartphones_preloadedApps_a h2, .bbcom_desktop_smartphones_preloadedApps_a h3, .bbcom_desktop_smartphones_preloadedApps_a h4, .bbcom_desktop_smartphones_preloadedApps_a li, .bbcom_desktop_smartphones_preloadedApps_a p { color: #666; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload-wrapper { width: 100%; background-position: 0 0; background-repeat: no-repeat; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload-inner-wrapper { 
+    width: 948px; 
+    padding: 50px 0; 
+    margin: 0 auto;
+    border-bottom: 1px solid #EAEAEA;
+}
+.bbcom_desktop_smartphones_preloadedApps_a .preload-inner-wrapper.no-border { border: none; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload-title {
+    float: left;
+    display: block; 
+    width: 480px;
+}
+.bbcom_desktop_smartphones_preloadedApps_a .preload-title h2 { line-height: 25px; font-size: 20px; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload-category {
+    float: left;    
+    display: block;
+    width: 468px;
+}
+.bbcom_desktop_smartphones_preloadedApps_a .preload {
+    float: left;    
+    display: block;
+    width: 468px;
+}
+.bbcom_desktop_smartphones_preloadedApps_a .preload ul { padding-left: 18px; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload ul li { 
+    display: inline-block;
+    margin: 0 10px 25px 0;
+    width: 97px;	
+}
+    .ie .bbcom_desktop_smartphones_preloadedApps_a .preload ul li { float: left; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload ul li .icon, .bbcom_desktop_smartphones_preloadedApps_a .preload ul li .app-info { text-align: center; }
+.bbcom_desktop_smartphones_preloadedApps_a .preload ul li a img, .bbcom_desktop_smartphones_preloadedApps_a .preload ul li a span { text-align: center; }
+    .ie .bbcom_desktop_smartphones_preloadedApps_a .preload ul li .app-info { line-height: 16px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap { width: 100%; display: block; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance { height: auto; background-color: #2E3133; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content { width: 948px; margin: 0 auto; padding-top: 50px; position: relative; min-height: 500px; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content { padding-top: 0; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .ctaButton { float: left; margin: 40px 25px 60px 0; }
+	.bbcom_desktop_smartphones_specsHero_a .at-a-glance.add-footnotes .ctaButton { margin-top: 10px; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker { background: url("/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_specsHero_a/clientlibs/img/color-selector-bg.png") repeat-x center top; display: block; margin-top: 30px; border: 1px solid #2D3032; border-top: none; border-bottom: none; -webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; -moz-border-top-left-radius: 4px; -moz-border-top-right-radius: 4px; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .color-picker { margin-top: 40px; }
+    	.bbcom_desktop_smartphones_specsHero_a .at-a-glance.add-footnotes .color-picker { margin-top: 10px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .color-picker { float: left; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .color-picker { float: right; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker ul { overflow: hidden; padding: 8px; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .color-picker ul { left: auto; right: 12px; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li { }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .color-picker li { float: left; margin-left: 4px; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .color-picker li { float: right; margin-right: 4px; }
+        .rtl .ie .bbcom_desktop_smartphones_specsHero_a .color-picker li { float: left; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li:first-child { }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .color-picker li:first-child { margin-left: 0; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .color-picker li:first-child { margin-right: 0; }
+        .rtl .ie .bbcom_desktop_smartphones_specsHero_a .color-picker li:first-child { margin-right: 4px; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li > a,
+.bbcom_desktop_smartphones_specsHero_a .color-picker li > span { display: block; padding: 2px; cursor: pointer; width: 34px; height: 34px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li img { display: block; width: 34px; height: 34px; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li > span { cursor: default; }
+.bbcom_desktop_smartphones_specsHero_a .color-picker li a.selected { background-color: #0098F0; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge { width: 498px; padding-top: 50px; padding-bottom: 10px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .badge { float: left; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .badge { float: right; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge { width: 548px; padding-bottom: 0; }
+        #ie8 .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge,
+        #ie7 .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge { padding-bottom: 20px; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge > .clr { clear: both; height: 0; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge .teaser-image { position: relative; margin-bottom: 30px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge .teaser-image { left: -270px; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .badge .teaser-image { right: -270px; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge .hero-heading { padding-top: 70px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge h1 { font-weight: 200; font-size: 44px; line-height: 55px; margin: 0 0 25px; color: #fff; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge h1,
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge h2 { color: #fff; font-size: 44px; line-height: 48px; margin-bottom: 50px; font-weight: 200; }
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge h1 sup,
+.bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge h2 sup { font-size: 0.3em; line-height: 1; vertical-align: top;}
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block { width: 120px; margin-bottom: 40px; text-align: center; position: relative; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block { float: left; left: -10px; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block { float: right; right: -10px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block div { text-align: center; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc { font-family: Slate, Arial, sans-serif; font-weight: 200; font-size: 50px; height: 54px; vertical-align: bottom; color: #fff; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc sup { font-size: 18px; font-weight: 400; margin-left: 5px; line-height: 18px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc sup { margin-left: 5px; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc sup { margin-right: 5px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc > sup,
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc > span { position: absolute; }
+	.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc > sup { top: 6px; }
+	.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc > span { top: 0; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge .spec-block .spec-desc sup { color: #fff; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-desc span.trade { font-family: TradeGothicNextLTPro, sans-serif; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-label { color: #999999; font-size: 14px; line-height: 14px; }
+    .ie .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-block .spec-label { line-height: 16px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-row { clear: both; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long { width: 248px; font-size: 14px; line-height: 16px; margin-bottom: 4px; color: #fff; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long { float: left; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long { float: right; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .badge .spec-long { margin-bottom: 4px; } 
+    .ie .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long { line-height: 16px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long sup { font-size: 0.8em; line-height: 0.2em; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .spec-long .spec-label { color: #999; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .notes { min-height: 1px; }
+    .edit .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .notes { width: 248px; } 
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .notes { float: left; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .badge .notes { float: right; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .badge .notes p { margin: 30px 0 0 0; color: #999; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .device { width: 450px; margin-top: 40px; position: absolute; bottom: -47px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-content .device { right: 0; }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-content .device { left: 0; }
+    .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .device { width: 400px; position: relative; top: 113px; bottom: auto; margin-top: 0; }
+        .ltr .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .device { float: left; right: -50px; }
+        .rtl .bbcom_desktop_smartphones_specsHero_a .at-a-glance .hero-content .device { float: right; left: -50px; }
+        .bbcom_desktop_smartphones_specsHero_a .at-a-glance.single .hero-content .device { top: 0; }
+            .ltr .bbcom_desktop_smartphones_specsHero_a .at-a-glance.single .hero-content .device { right: 114px; }
+            .rtl .bbcom_desktop_smartphones_specsHero_a .at-a-glance.single .hero-content .device { left: 114px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-content .device img { display: block; }
+/* Color tile right*/
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .hero-content { min-height: 409px; }
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .hero-content .badge { position: relative; z-index: 2; }
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .hero-content .device { bottom: -47px; z-index: 1; }
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker { float: none; position: absolute; top: 160px; }
+    .ltr .bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker { right: -439px }
+    .rtl .bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker { left: -439px }
+.bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker li { float: none; margin-left: 0; }
+    .bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker li:first-child { }
+        .ltr .bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker li:first-child { margin-left: 0; }
+        .rtl .bbcom_desktop_smartphones_specsHero_a .hero-wrap.color-tile-right .color-picker li:first-child { margin-right: 4px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a { position: relative; overflow: hidden; /* IE */ float: left; clear: both; width: 100%; }
+	.edit .bbcom_desktop_smartphones_whereToBuyPromo_a { float: none; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .wtb-bg { position: absolute; width: 100%; height: 100%; background-color: #274ba4; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .wtb-bg > div { position: absolute; height: 100%; width: 50%; left: 50%; background: #000; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .wtb-wrapper { height: 300px; background-position: top center; background-repeat: no-repeat; position: relative; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a h1.alt-a,
+.bbcom_desktop_smartphones_whereToBuyPromo_a h2.alt-a,
+.bbcom_desktop_smartphones_whereToBuyPromo_a h3.alt-a,
+.bbcom_desktop_smartphones_whereToBuyPromo_a h4.alt-a,
+.bbcom_desktop_smartphones_whereToBuyPromo_a h5.alt-a { color: #fff; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .wtbHeading h2 { padding-top: 60px; margin-bottom: 30px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .wtb-inner-wrapper { width: 948px; height: 100%; margin: 0 auto; position: relative; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .main-section { width: 460px; }
+    .rtl .bbcom_desktop_smartphones_whereToBuyPromo_a .main-section { width: 375px; float: left; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section { position: absolute; right: 0; top: 80px; width: 190px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section h1,
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section h2,
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section h3,
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section h4,
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section h5 { margin-bottom: 20px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section .wtbLinks a { display: block; margin-bottom: 5px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section .wtbSubDescription p,
+.bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section .wtbLinks a > .postscript { color: #fff; }
+    .bbcom_desktop_smartphones_whereToBuyPromo_a .sub-section .wtbSubDescription p { font-size: 12px; margin-bottom: 10px; }
+.bbcom_desktop_smartphones_whereToBuyPromo_a .anchor-top { position: absolute; right: 0; bottom: 20px; padding-right: 24px; text-transform: uppercase; color: #A2A8AF; font-size: 12px; background: url("/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_pinnedNavigation_a/clientlibs/img/top.png") no-repeat right center; }
+    .bbcom_desktop_smartphones_whereToBuyPromo_a .anchor-top:hover,
+    .bbcom_desktop_smartphones_whereToBuyPromo_a .anchor-top:focus { color: #007bc8; }
+/* WHERE TO BUY HERO AREA */
+/*.bbcom_desktop_smartphones_whereToBuy_a { visibility: hidden; }*/
+.bbcom_desktop_smartphones_whereToBuy_a.visible { visibility: visible; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .clr { clear: both; }
+
+.bbcom_desktop_smartphones_whereToBuy_a h1 {
+    color: #fff;
+    font-weight: 200;
+    position: absolute;
+    top: 110px;
+    margin-left: -4px;
+    font-size: 44px;
+    line-height:1.2;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .label-container,
+.bbcom_desktop_smartphones_whereToBuy_a .content-container,
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku-container {
+    float: left;
+    padding-left: 0; padding-right: 0;
+    min-height: 1px;
+    clear: right; /*IE*/
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku-container {
+    padding-bottom: 30px;	
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .cols-4 {width: 25%;}
+.bbcom_desktop_smartphones_whereToBuy_a .label-container,
+.bbcom_desktop_smartphones_whereToBuy_a .cols-3 { width: 33.33%; }
+.bbcom_desktop_smartphones_whereToBuy_a .content-container { width: 66.66%; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-content,
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs,
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after-parsys {
+    width: 948px;
+    margin: 0 auto;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-content { padding-top: 0px; }
+    .bbcom_desktop_smartphones_whereToBuy_a .wtb-content.wtb-content-before { padding-top: 40px; }
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-content-after { padding-bottom: 30px; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs {
+    overflow:hidden;
+    height: 68px;
+    position: relative;
+    top: -8px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs-container {
+    background: #eaeaea;
+    height: 60px;
+    position: relative;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs-container > .faux-shadow {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px; background: #d5d6d6;
+    border-top: 1px solid #dadbdb;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-types {
+	padding-top: 80px;
+    padding-bottom: 40px;	
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-types > li {
+	float: left;
+	width: 33.33%;
+	padding: 0; margin: 0;
+}
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-types > li { float: right; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-group {
+    margin-bottom: 10px;    
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a p {
+    color: #666; font-weight: normal;
+    font-size: 14px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a h3 {
+    font-family: TradeGothicNextLTPro, sans-serif;
+    color: #666;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+    .bbcom_desktop_smartphones_whereToBuy_a .label-container h3 {
+        /*line-height: 34px;*/
+        padding-right: 30px;
+    }
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .label-container h3 {
+        padding-left: 30px;
+        padding-right: 0; 
+    }
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li {
+    height: 60px;
+    line-height: 60px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li > h3 {
+    line-height: 60px;
+    margin-top: 8px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .skus > .label-container {
+    height: 1px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .skus {
+    position: relative;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .skus h3 {
+    position: absolute;
+    top: 50%;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-type h3 {
+    padding-top: 36px;
+}
+    .bbcom_desktop_smartphones_whereToBuy_a .device-carrier-skus h3 { padding-top: 44px; } 
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li > a {
+    display: block;
+    text-align: center;
+    padding: 4px 0 0;
+    margin: -4px 0 0;
+    font-size: 20px;
+    text-decoration: none;
+    position:relative;
+    top: 8px;
+    font-family: TradeGothicNextLTPro, sans-serif;
+    font-weight: 200;    
+    behavior: url('/apps/bbcore/libs/bbcore.pie/htc/PIE.htc');
+}
+
+*:first-child+html .bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li > a {
+    top: 4px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li > a.active {
+    background: #F5F5F5;
+    color: #333;
+    box-shadow: 0 0 4px #999;
+    -webkit-box-shadow: 0 0 4px #999;
+    -moz-box-shadow: 0 0 4px #999;
+    -ms-box-shadow: 0 0 4px #999;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-types a {
+	font-size: 22px;
+	font-family: TradeGothicNextLTPro, sans-serif;
+	float: left;
+	line-height: 34px;
+	color: #333;
+}
+
+    .bbcom_desktop_smartphones_whereToBuy_a .payment-types a:hover,
+    .bbcom_desktop_smartphones_whereToBuy_a .payment-types a:focus { text-decoration: none; }
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-types a { float: none; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .skus {
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background: url(/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_whereToBuy_a/clientlibs/img/sku-bg.png) no-repeat right top;
+}
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .skus {
+	    background-position: left top;
+	}
+
+.bbcom_desktop_smartphones_whereToBuy_a .sku {
+    float: left;
+    text-align: center;
+}
+
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .sku {
+	    float: right;
+    }
+
+.bbcom_desktop_smartphones_whereToBuy_a .devicesku-link {
+    display: inline-block;
+    margin-right: 44px;
+    padding-left: 38px;
+    position: relative;
+    display:inline-block; zoom:1; *display: inline;
+}
+	.bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link,
+	.rtl .bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link { 
+		padding: 0;
+		margin: 0 20px;
+	}
+.bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link .checkbox-wrapper { text-align: center; margin-top: 10px; }
+.bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link .checkbox { display: inline-block; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .checkbox,
+.bbcom_desktop_smartphones_whereToBuy_a .step {
+    background: url("/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_whereToBuy_a/clientlibs/img/buy-sprite.png") 0 0 no-repeat;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .checkbox {
+    width: 34px;
+    height: 34px;
+}
+
+    .bbcom_desktop_smartphones_whereToBuy_a .active > .checkbox,
+    .bbcom_desktop_smartphones_whereToBuy_a .active > .checkbox-wrapper .checkbox {
+        background-position: -34px 0;
+    }
+    
+    .bbcom_desktop_smartphones_whereToBuy_a .payment-types .checkbox {
+        display: block;
+        float: left;
+        margin-right: 24px;
+    }
+        .rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-types .checkbox {
+            float: right;
+            margin-left: 24px;
+            margin-right: 0;
+        }
+
+	.bbcom_desktop_smartphones_whereToBuy_a .devicesku-link > .checkbox {
+	    position: absolute;
+	    top: 50%; left: 0;
+	    margin-top: -22px;
+	    margin-left: -26px;
+	}
+	.bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link > .checkbox,
+	.rtl .bbcom_desktop_smartphones_whereToBuy_a .compressed .devicesku-link > .checkbox {
+		position: static;
+		margin: 10px auto;
+	}
+
+.bbcom_desktop_smartphones_whereToBuy_a .step {
+	    display: block;
+	    width: 34px;
+	    height: 18px;
+	    line-height: 18px;
+        background-position: 0 -34px;
+        float: left;
+        margin-right: 12px;
+        color: #FFF;
+        font-weight: normal;
+        text-align: center;
+        padding: 8px 0;       
+}
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .step {
+        float: right;
+        margin-left: 12px;
+        margin-right: 0;
+    }
+    
+.bbcom_desktop_smartphones_whereToBuy_a .step-label {
+    width: 237px; 
+    float: left; 
+    padding-top: 8px;
+    word-wrap: break-word;
+    }
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .step-label {
+       float: right; 
+    }
+
+.bbcom_desktop_smartphones_whereToBuy_a .device-carrier-skus {
+    min-height: 120px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-content .carrier-sku {
+    display: block;
+    margin: 0 15px 0 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku:hover,
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku:focus {
+    text-decoration: none;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .payment-type .tab-toggle {
+	display: block;
+	font-size: 14px;
+    margin-left: 46px;
+    margin-top: 10px;
+}
+    .rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-type .tab-toggle { margin-left: 0; margin-right: 46px; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo {
+    height: 110px; margin-bottom: 15px;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 20px;
+}
+    .bbcom_desktop_smartphones_whereToBuy_a .carrier-sku:hover > .logo,
+    .bbcom_desktop_smartphones_whereToBuy_a .carrier-sku:focus > .logo { background-color: #F5F5F5; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover {
+    display:none;
+    position: absolute;
+    width: 100%; height: 108px;
+    padding: 0;
+    color: #fff;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover > .table-wrap {
+    width: 100%; height: 100%;
+    display: table;
+    text-align: center;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover > .table-wrap > .text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover > .table-wrap > .text > div {
+    text-align: center;
+}
+
+/* vertically centering text in IE7 */
+*:first-child+html .bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover > .table-wrap > .text { position: absolute; top: 50%; left: 0; width: 100%; }
+*:first-child+html .bbcom_desktop_smartphones_whereToBuy_a .carrier-sku > .logo > .hover > .table-wrap > .text > div { position: relative; top: -50%; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .preorder .wtb-content {
+    padding-top: 50px;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .preorder .wtb-content h3 {
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 22px;
+}
+.bbcom_desktop_smartphones_whereToBuy_a .links-container,
+.bbcom_desktop_smartphones_whereToBuy_a .device-carrier-skus {
+    position: relative;
+    left: 7px;
+    margin-left: -7px; margin-right: -7px;
+}
+
+.scriptEnabled.non-edit .bbcom_desktop_smartphones_whereToBuy_a .device-skus-container { position: relative; }
+.scriptEnabled.non-edit .bbcom_desktop_smartphones_whereToBuy_a .device-carrier-skus { position: absolute; left: 7px; top: 0; width: 100%; }
+.bbcom_desktop_smartphones_whereToBuy_a .links-container { margin-bottom: 10px; padding-top: 80px; overflow: hidden; }
+    .bbcom_desktop_smartphones_whereToBuy_a .wtb-group + .links-container,
+    .bbcom_desktop_smartphones_whereToBuy_a .links-container + .links-container { padding-top: 0; }
+
+/* AFTER CONTENT */
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after { background: #fff; padding: 50px 0 0; }
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after > .wtb-after-parsys > .bbcom_common_global_heading_a > h2,
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after > .wtb-after-parsys > .bbcom_common_global_heading_a > h3,
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after > .wtb-after-parsys > .bbcom_common_global_heading_a > h4 {
+    font-family: Slate;
+    font-size:20px;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 7px;
+    font-weight: normal;
+}
+
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after .bbcom_desktop_common_multiColumnContainer_a { position: relative; left: -7px; }
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after .bbcom_desktop_common_multiColumnContainer_a h3 {
+    color: #333;
+    margin: 10px 0;
+    font-weight:normal;
+    clear: both;
+}
+.bbcom_desktop_smartphones_whereToBuy_a .noscript {  }
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after .wtb-breadcrumb { padding-top: 57px; }
+
+/* overriding link color for baked in footer breadcrumb */
+.bbcom_desktop_smartphones_whereToBuy_a .wtb-after .wtb-breadcrumb .breadcrumb-link a { color: #007bc8; }
+
+/* RTL */
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .label-container,
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .content-container,
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .carrier-sku-container {
+    float: right;
+    text-align: right;
+    clear: left; /*IE*/
+}
+
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-tabs > li > h3 { text-align: right; }
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .payment-type .label-container > h3 { text-align: right; }
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .devicesku-link > .checkbox {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -26px;
+}
+
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .devicesku-link {
+    margin: 10px 0 10px 40px;
+    padding: 0 40px 0 0;
+    position: relative;
+    display:inline-block; zoom:1; *display: inline;
+}
+
+.rtl .bbcom_desktop_smartphones_whereToBuy_a .step-label { float: right; }
+
+/*** MODES ***/
+/* minimized */
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized {}
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .label-container { width: 25%; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .content-container { width: 74.9%; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content { width: auto; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > div,
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > ul,
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > .skus > .skus-inner,
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > h1 { width: 948px; margin-left: auto; margin-right: auto; }
+	.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > h1 { left: 50%; margin-left: -474px; }
+	.bbcom_desktop_smartphones_whereToBuy_a > .minimized > .wtb-content > .skus { background: #fff; width: auto; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .skus .label-container > h3 { margin-top: -.75em; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .payment-types .label-container h3 { position: relative; top: 5px; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .label-container h3 { padding-right: 20px; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .step-label { width: auto; float: none; }
+
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .step { position: relative; top: -8px; }
+
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .label-container h3 { overflow: visible; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .sku { max-width: 37.3%; } 
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .payment-type .tab-toggle { margin-right: 10px; }
+
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .devicesku-link { padding-left: 50px; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .devicesku-link > .checkbox { margin-left: 0; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .sku { text-align: left; }
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .sku > a > img { max-width: 100%; }
+
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .payment-types { padding-top: 30px; padding-bottom: 25px; }
+/*.bbcom_desktop_smartphones_whereToBuy_a > .minimized .payment-types .label-container h3 {  }*/
+
+
+.bbcom_desktop_smartphones_whereToBuy_a > .minimized .skus { padding-top: 20px; padding-bottom: 20px; }

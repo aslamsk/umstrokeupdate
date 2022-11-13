@@ -1,0 +1,61 @@
+.bbcom_desktop_smartphones_pinnedNavigation_a { width: 100%; position:absolute; margin:18px 0 0 0; z-index:99999; top:0px; font-family:'NexaBold-Regular';}
+    .rtl .bbcom_desktop_smartphones_pinnedNavigation_a { right: 0; left: auto;}
+.bbcom_desktop_smartphones_pinnedNavigation_a a:hover { text-decoration: none; }
+.bbcom_desktop_smartphones_pinnedNavigation_a .static-bg { width: 100%; position: absolute; left: 0; top: 0px; }
+.bbcom_desktop_smartphones_pinnedNavigation_a .static-bg.no-chev { background: #ffffff; }
+.bbcom_desktop_smartphones_pinnedNavigation_a .fixed-bg { display: none; width: 100%; height: 50px; position: absolute; left: 0; background:#ae2b33; color:#000 !important;}
+
+.bbcom_desktop_smartphones_pinnedNavigation_a .top { display: none; position: absolute; right: 10px; top: 13px; padding: 1px 24px 0 0; background:url(../images/top.png) right center no-repeat; text-transform: uppercase; color: #fff; font-size: 12px; z-index:9999;}
+ 
+        .bbcom_desktop_common_whiteBodyPage_b .page .bbcom_desktop_smartphones_pinnedNavigation_a .top:hover { color: #007BC8; }
+.bbcom_desktop_smartphones_pinnedNavigation_a .navigation-content { z-index: 1; padding: 0 0px 0 0; margin: 0 auto; position: absolute; top: 0; left: 44%; margin-left: -500px;}
+.bbcom_desktop_smartphones_pinnedNavigation_a .navigation-content-s { z-index: 1; padding: 0 0px 0 0; margin: 0 auto; position: absolute; top: 0; left: 51%; margin-left: -500px; width:100%;}
+
+
+.bbcom_desktop_smartphones_pinnedNavigation_a .navigation { float: left; margin:0 auto; padding: 10px 0px 10px; }
+    .rtl .bbcom_desktop_smartphones_pinnedNavigation_a .navigation { float: right; }
+	
+.bbcom_desktop_smartphones_pinnedNavigation_a .navigation li { float: left; font-size: 13px; padding:4px 10px; list-style-type:none; }
+    .rtl .bbcom_desktop_smartphones_pinnedNavigation_a .navigation li { float: right; }
+.bbcom_desktop_smartphones_pinnedNavigation_a.open .navigation li.selected { 
+    background: #FFF; color:#ae2b33 !important; 
+}
+.bbcom_desktop_smartphones_pinnedNavigation_a .navigation li a { color: #fff; }
+    .bbcom_desktop_smartphones_pinnedNavigation_a .navigation li a:hover { color: #000; }
+    .bbcom_desktop_smartphones_pinnedNavigation_a.open .navigation li.selected a { color: #ae2b33; }
+	
+.links { float: right; margin-top:1.4em; width:300px !important;}
+.links li { list-style-type:none; margin-right:0; }
+.links li a { color:#fff;}
+.links .support { margin-left: 10px; margin-right:0; float:right;}
+.links .support a { color: #fff !important; }
+.links .support a.active span { background-color:#008462 !important; padding:8px 15px; color:#fff !important; border-radius:2px; }
+.links .support a.active1 { background-color:#000 !important; padding:8px 15px; color:#fff; border-radius:2px; }
+.links .support a.active:hover {color:#000 !important; }
+    .bbcom_desktop_smartphones_pinnedNavigation_a .links .compare a:hover,
+    .bbcom_desktop_smartphones_pinnedNavigation_a .links .support a:hover { color: #007BC8; }
+    .bbcom_desktop_smartphones_pinnedNavigation_a .links .compare a { padding: 0px 0 2px 26px; color:#000; }
+        .bbcom_desktop_smartphones_pinnedNavigation_a .links .compare a.compareCart { background-position: 0 -21px; }
+        .rtl .bbcom_desktop_smartphones_pinnedNavigation_a .links .compare a { padding: 2px 26px 2px 0; background: url(/apps/bbcom/components/desktop/smartphones/bbcom_desktop_smartphones_pinnedNavigation_a/clientlibs/img/compare.png) no-repeat right 0; }
+    .bbcom_desktop_smartphones_pinnedNavigation_a .links .buy { padding: 20px 0; }
+    
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:link > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:visited > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:hover > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:focus > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:active > span {
+color: #666;
+}
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:hover > span, 
+.bbcom_desktop_smartphones_pinnedNavigation_a .bbcom_common_global_link_a > a:focus > span { text-decoration: none; color: #007BC8; }
+
+/* IE RTL */
+.rtl .ie .bbcom_desktop_smartphones_pinnedNavigation_a .navigation-content { right: 50%; left: auto; margin: 0 -486px 0 0;}
+.rtl .ie .bbcom_desktop_smartphones_pinnedNavigation_a .navigation-content > .navigation,
+.rtl .ie .bbcom_desktop_smartphones_pinnedNavigation_a .navigation-content > .links { float: left; }
+.rtl .ie .bbcom_desktop_smartphones_pinnedNavigation_a .links .compare > a { padding-left: 26px; padding-right: 26px; }
+
+
+.ebrochure{float:right; margin-top:10px; background:#FFF; border:#AE2B33; border-radius:0px; margin-left:30%; color:#ae2b33;}
+.ebrochure:hover{background:#000; border:#000;}
