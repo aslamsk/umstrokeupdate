@@ -284,6 +284,7 @@
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
+          
           <!-- <div class="col-md-12 col-sm-12 col-xs-12">
             <form
               class="form-horizontal"
@@ -414,6 +415,11 @@
         </div>
         <div class="clear"></div>
         <div class="margintop15"></div>
+        <div class="alert alert-success mt-5 text-black" role="alert" id="myalert" style="display:none">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          Your Form send successfully please check your mail!. <br>
+          <strong>Note:</strong> If not recived inbox please check spam message.
+        </div>
       </div>
     </div>
   
@@ -590,9 +596,10 @@
       function sendEmail(){
         // alert(document.getElementById("myEmail").value
         Email.send({
-          SecureToken: "8a2f8945-964f-43b0-9d9f-6f62f70fa142",
-          To : 'nexendesigns@gmail.com',
-          From : 'sibasankar@gmail.com',
+          SecureToken: "dd3d7561-0e52-4c86-a566-dccab927958f",
+          To : 'umstrokeupdate@gmail.com',
+          ReplayTo : 'sibasankar@gmail.com',
+          From : 'umstrokeupdate@gmail.com',
           Subject : "UM Stroke CME Registration form Recieved",
           Body : 'Hi  ' +' New Registration Form Recieved with the below details' + 
           '<br> Name:' + document.getElementById("fName").value +
@@ -607,11 +614,17 @@
           '<br> City:'+ document.getElementById("fCity").value +
           '<br> Pincode:'+document.getElementById("fPincode").value
       }).then(
-        message => alert('Dear ' +  document.getElementById("fName").value+ message),
+        // message => alert('Dear ' +  document.getElementById("fName").value+ message),
+        document.getElementById('myalert').style.display = 'block',
+        setTimeout(function(){ 
+          document.getElementById('myalert').style.display = "none"
+        }, 3000),
+
         Email.send({
-          SecureToken: "8a2f8945-964f-43b0-9d9f-6f62f70fa142",
+          SecureToken: "dd3d7561-0e52-4c86-a566-dccab927958f",
+          ReplayTo : document.getElementById("fEmail").value ,
           To : document.getElementById("fEmail").value ,
-          From : 'sibasankar@gmail.com',
+          From : 'umstrokeupdate@gmail.com',
           Subject : "Thanks for registration",
           Body : 'Hi  ' +' '+ document.getElementById("fName").value+' ' + ' Thanks for showing Interest we are recived your registration form with the below details' +
           '<br> Name:' + document.getElementById("fName").value +
